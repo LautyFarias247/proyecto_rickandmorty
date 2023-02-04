@@ -1,0 +1,63 @@
+.card {
+    background-image: url("../../img/HD-wallpaper-portal-morty-rick-thumbnail.jpg");
+    background-size: cover;
+    border: 12px solid green;
+    margin: .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:280px;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: .5s;
+    
+}
+
+.header {
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    width: 80%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 20px; 
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header h2 {
+    line-height: 20px;
+    text-align: left;
+    font-size: 20px;
+    overflow: hidden;
+    box-sizing: content-box;
+    cursor: pointer
+}
+
+.header button{
+    background-color: red;
+    height: 25px;
+    width: 25px;
+}
+
+img {
+    width: 80%;
+    border: 8px solid green
+}
+
+.footer {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+}
+
+.footer h2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    width: 45%;
+    font-size: 20px;
+}
